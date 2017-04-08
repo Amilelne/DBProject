@@ -1,0 +1,33 @@
+{
+	"command": "create",
+	"stat": {
+		"table": "Student",
+		"property": [
+			{
+				"name": "studentId",
+				"value": [
+					{
+						"type": "INT"
+					}
+				]
+			},
+			{
+				"name": "name",
+				"value": [
+					{
+						"type": "VARCHAR",
+						"value": 10
+					}
+				]
+			},
+			{
+				"name": "age",
+				"value": [
+					{
+						"type": "INT"
+					}
+				]
+			}
+		]
+	}
+}

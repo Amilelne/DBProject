@@ -1,0 +1,30 @@
+{
+	"data": [
+		{
+			"dataname": "linkId",
+			"datatype": [
+				{
+					"type": "INT"
+				},
+				{
+					"type": "PRIMARY_KEY"
+				}
+			],
+			"values": [
+				1
+			]
+		},
+		{
+			"dataname": "url",
+			"datatype": [
+				{
+					"type": "VARCHAR",
+					"value": 40
+				}
+			],
+			"values": [
+				"http://www.nthu.edu.tw"
+			]
+		}
+	]
+}

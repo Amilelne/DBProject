@@ -1,0 +1,29 @@
+<!-- HTML -->
+<table class="for-table" border="1">
+	<thead>
+		<tr>
+			<th>姓名</th>
+			<th>年齡</th>
+		</tr>
+	</thead>
+	<tbody>
+	</tbody>
+</table>
+
+<!-- 載入 jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+<!-- Code -->
+<script type="text/JavaScript">
+var json = [{"name": "小傑", "age": 32},
+			{"name": "小明", "age": 28}];
+
+var forTable = $(".for-table tbody");
+var jsonSum = json.length;
+for (var i = 0; i < jsonSum; i++) {
+	forTable.append("<tr>" +
+						"<td>" + json[i].name + "</td>" +
+						"<td>" + json[i].age + "</td>" +
+					"</tr>");
+}
+</script>

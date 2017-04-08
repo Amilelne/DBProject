@@ -1,0 +1,44 @@
+{
+	"data": [
+		{
+			"dataname": "studentId",
+			"datatype": [
+				{
+					"type": "INT"
+				}
+			],
+			"values": [
+				2,
+				3,
+				5
+			]
+		},
+		{
+			"dataname": "name",
+			"datatype": [
+				{
+					"type": "VARCHAR",
+					"value": 10
+				}
+			],
+			"values": [
+				"Mary",
+				"Will",
+				"James"
+			]
+		},
+		{
+			"dataname": "age",
+			"datatype": [
+				{
+					"type": "INT"
+				}
+			],
+			"values": [
+				11,
+				12,
+				14
+			]
+		}
+	]
+}

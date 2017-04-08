@@ -1,0 +1,28 @@
+{
+	"command": "create",
+	"stat": {
+		"table": "Links",
+		"property": [
+			{
+				"name": "linkId",
+				"value": [
+					{
+						"type": "INT"
+					},
+					{
+						"type": "PRIMARY_KEY"
+					}
+				]
+			},
+			{
+				"name": "url",
+				"value": [
+					{
+						"type": "VARCHAR",
+						"value": 40
+					}
+				]
+			}
+		]
+	}
+}
